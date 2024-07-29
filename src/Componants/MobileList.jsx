@@ -8,7 +8,7 @@ import {
 
 export const MobileList = () => {
   return (
-    <div className="fixed bottom-10 right-3 sm:hidden w-[90%] rounded-3xl bg-[#4E4E5F] -">
+    <div className="fixed bottom-10 right-3 sm:hidden w-[90%] rounded-3xl  bg-[#4E4E5F] ">
       <ul className="flex justify-around items-center h-20 mx-auto -">
         <li>
           <a
