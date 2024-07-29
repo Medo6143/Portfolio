@@ -22,6 +22,7 @@ export const Contact = () => {
             name="Name"
           />
           <input
+          
             type="email"
             placeholder="Email"
             className="bg-[#333333] p-2 rounded-md w-full"

@@ -6,11 +6,15 @@ export const Projects = () => {
   const [project, setProject] = useState(projects);
 
   // filter projects
-  const react = "React&Tailwind";
-  const tailwind = "React&Tailwind";
-  const bootstrap = "Bootstrap";
-  const js = "js";
-  const css = "css";
+
+  const filter = {
+    react: "React&Tailwind",
+    tailwind: "React&Tailwind",
+    bootstrap: "Bootstrap",
+    js: "js",
+    css: "css",
+    firebase: "firebase",
+  }
 
   const FilterProject = (catagory) => {
     setProject(projects.filter((project) => project.category === catagory));
@@ -34,17 +38,18 @@ export const Projects = () => {
             setProject(projects);
           }}
         />
-        <ButtonFilter button={"React"} click={() => FilterProject(react)} />
+        <ButtonFilter button={"React"} click={() => FilterProject(filter.react)} />
         <ButtonFilter
           button={"Tailwind"}
-          click={() => FilterProject(tailwind)}
+          click={() => FilterProject(filter.tailwind)}
         />
         <ButtonFilter
           button={"Bootstap"}
-          click={() => FilterProject(bootstrap)}
+          click={() => FilterProject(filter.bootstrap)}
         />
-        <ButtonFilter button={"js"} click={() => FilterProject(js)} />
-        <ButtonFilter button={"Css"} click={() => FilterProject(css)} />
+        <ButtonFilter button={"js"} click={() => FilterProject(filter.js)} />
+        <ButtonFilter button={"Css"} click={() => FilterProject(filter.css)} />
+        <ButtonFilter button={"Firebase"} click={() => FilterProject(filter.firebase)} />
       </div>
       {/* Area projects */}
       <div className="flex flex-wrap gap-0 mt-20">

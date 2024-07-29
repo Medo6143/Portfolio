@@ -48,6 +48,20 @@ const projects = [
     code: "https://github.com/Medo6143/Todo",
     category: "js",
   },
+  {
+    id: "8",
+    img: "https://media.istockphoto.com/id/1371726643/photo/different-notifications-on-violet-background-pop-up-messages-copy-space.webp?b=1&s=170667a&w=0&k=20&c=FhmBYUrsGsR0hYn5zEDa0SkEFfF-rwuUfMEZ4HpX0rE=",
+    demo: "https://chat-me-six-zeta.vercel.app/",
+    code: "https://github.com/Medo6143/ChatME",
+    category: "firebase",
+  },
+  {
+    id: "8",
+    img: "https://cdn.vectorstock.com/i/1000x1000/39/10/personal-website-icon-monochrome-simple-vector-44813910.webp",
+    demo: "https://portfolio-mohameds-projects-ea923384.vercel.app/",
+    code: "https://github.com/Medo6143/Profile",
+    category: "React&Tailwind",
+  },
 ];
 
 export default projects;

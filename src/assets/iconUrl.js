@@ -10,7 +10,7 @@ const skillsImages = [
   "https://img.icons8.com/color/48/000000/typescript.png", // TypeScript
   "https://img.icons8.com/color/48/000000/javascript.png", // JavaScript
   "https://img.icons8.com/color/48/000000/webpack.png", // JavaScript
-  "https://img.icons8.com/color/48/000000/vite.png", // JavaScript
+  "https://img.icons8.com/color/48/000000/firebase.png", 
 ];
 
 export default skillsImages;
