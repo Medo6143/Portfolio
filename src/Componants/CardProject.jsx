@@ -9,7 +9,7 @@ export const CardProject = (props) => {
   return (
     <div
       data-aos="fade-right"
-      className="bg-[#222222] w-[350px] sm:w-[400px] mx-auto p-3 my-auto rounded-xl mt-2 h-[200px] sm:h-[200px] relative hover:opacity-75 transition-opacity duration-500 ease-in-out"
+      className="bg-[#222222] w-[350px] sm:w-[400px]  mx-auto p-3 my-auto rounded-xl mt-2 h-[200px] sm:h-[200px] relative hover:opacity-75 transition-opacity duration-500 ease-in-out"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

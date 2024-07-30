@@ -11,8 +11,9 @@
 
 body {
   background-color: rgb(19, 19, 19);
-  overflow-x: hidden;
 }
+
+
 
 header ul li:last-child:hover,
 .hove:hover {

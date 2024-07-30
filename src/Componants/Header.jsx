@@ -22,7 +22,7 @@ export const Header = () => {
         </li>
       </ul>
 
-      <MobileList />
+
     </header>
   );
 };
