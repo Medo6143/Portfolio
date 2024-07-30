@@ -13,7 +13,7 @@ export const CardProject = (props) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <img src={props.url} alt="" className="w-full h-full object-cover" />
+      <img src={props.url} alt="Image Project1" loading="lizy" className="w-full h-full object-cover" />
       <div
         className={`text-white absolute bottom-0 left-0 bg-[#81D4FA] gap-20 bg-opacity-80 p-2 w-[100%] h-[100%] flex items-center justify-center ${
           isHovered ? "visible" : "hidden"

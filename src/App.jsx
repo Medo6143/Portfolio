@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import Aos from "aos";
 import { Projects } from "./Componants/Projects";
 import { Contact } from "./Componants/Contact";
+import { MobileList } from "./Componants/MobileList";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
         <Skils />
         <Projects />
         <Contact />
+        <MobileList/>
       </main>
     </div>
   );
