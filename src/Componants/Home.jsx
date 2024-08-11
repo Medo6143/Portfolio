@@ -1,10 +1,9 @@
 import { useState, useEffect, useRef } from "react";
-import image from "../assets/Animation - 1721902992703.json";
-import Lottie from "lottie-react";
-import cv from "../cv/Mohamed_Wael_CV.pdf";
+import cv from "../cv/CV.pdf";
 import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import url from "../cv/mohab.png";
 export const Home = () => {
-  const positions = ["FRONT-END DEVELOPER", "REACT.JS DEVELOPER"];
+  const positions = ["Mechanical Engineer"];
   const [positionIndex, setPositionIndex] = useState(0);
   const [typingIndex, setTypingIndex] = useState(0);
   const textRef = useRef(null);
@@ -13,7 +12,7 @@ export const Home = () => {
     const interval = setInterval(() => {
       setPositionIndex((index) => (index + 1) % positions.length);
       setTypingIndex(0);
-    }, 6000);
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
@@ -25,7 +24,7 @@ export const Home = () => {
       if (typingIndex >= text.length) {
         clearInterval(typingEffect);
       }
-    }, 200);
+    }, 100);
     return () => clearInterval(typingEffect);
   }, [positionIndex, typingIndex]);
 
@@ -39,16 +38,17 @@ export const Home = () => {
         data-aos="flip-left"
       >
         <h2 className="font-bold sm:text-2xl text-xl ">
-          HI, I&apos;M MOHAMED WAEL
+          HI, I&apos;M Mohab Mahmoud
         </h2>
         <h3 className="sm:text-3xl mb-6 text-[20px] font-bold ">
-          I AM A{" "}
+          I Am a{" "}
           <span className="text-[#32D3FF] font-bold" ref={textRef}></span> |
         </h3>
         <p className="text-wrap ">
-          I Am A Passionate React.Js Developer. With A Strong Background In Web
-          Development And A Love For Building User-Friendly Interfaces, I Thrive
-          On Bringing Ideas To Life Through The Power Of React
+          I am a Mechanical Engineer with expertise in designing and optimizing
+          mechanical systems, I’m passionate about turning
+          ideas into efficient, high-quality products, and I’m dedicated to
+          staying at the forefront of technological advancements in my field.
         </p>
         <div className=" mt-4 justify-center flex flex-col items-center gap-4 ">
           <a
@@ -63,27 +63,27 @@ export const Home = () => {
               {" "}
               <a
                 target="blank"
-                href="https://www.facebook.com/profile.php?id=100037952316588&locale=ar_AR"
+                href="https://www.facebook.com/share/r6yMhK74baTHh3j5/?mibextid=qi20mg"
               >
                 <FaFacebook size={25} />
               </a>
             </li>
             <li className="cur cursor-pointer hover:text-[#32D3FF]">
               {" "}
-              <a target="blank" href="https://github.com/Medo6143">
+              <a target="blank" href="https://github.com/Mohab-Mahmoud9">
                 <FaGithub size={25} />
               </a>
             </li>
             <li className="cur cursor-pointer hover:text-[#32D3FF]">
               <a
                 target="blank"
-                href="https://www.linkedin.com/in/mohamed-wael-469744273/"
+                href="https://www.linkedin.com/in/mohab-m-55bb761bb/"
               >
                 <FaLinkedin size={25} />
               </a>
             </li>
             <li className="cur cursor-pointer hover:text-[#32D3FF]">
-              <a target="blank" href="https://wa.me/01001324231">
+              <a target="blank" href="https://wa.me/01015977091">
                 <FaWhatsapp size={25} />
               </a>
             </li>
@@ -92,12 +92,12 @@ export const Home = () => {
       </div>
       <div
         data-aos="fade-down"
-        className="bg-black hove sm:w-2/6 w-5/6 h-[70%] rounded-lg items-center mt-7 animation-border "
+        className="bg-black hove sm:w-[330px] w-5/6 h-[75%]  mt-7  animation-border "
       >
-        <Lottie
-          animationData={image}
-          loop={true}
-          className="w-[300px] mx-auto mt-8 "
+        <img
+          src={url}
+          alt="Mohab img"
+          className="  w-[95%] -mt-8 mx-auto  rounded-lg"
         />
       </div>
     </section>
