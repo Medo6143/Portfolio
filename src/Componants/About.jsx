@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import image from "../assets/Animation - 1723407375107.json";
+import image from "../assets/Animation - 1721936732472 (1).json";
 
 export const About = () => {
   return (
@@ -30,10 +30,11 @@ export const About = () => {
 
         <div className="mt-6 text-white ">
           <p data-aos="fade-up-left" className="text-lg">
-            Being highly motivated, adaptable, innovative, and a person with
-            Leadership skills, I seek to utilize my skills by working for a
-            leading organization where I can gain practical and professional
-            experience.
+            Hi, I&apos;m Mohamed, a passionate Front-End Developer specializing
+            in React.js. With a keen eye for detail and a strong commitment to
+            creating seamless user experiences, I bring innovative designs to
+            life through clean, efficient code. My expertise lies in HTML, CSS,
+            JavaScript, and modern frameworks like React and Redux.
           </p>
           <p className="text-lg" data-aos="fade-up-left">
             I&apos;m always eager to learn new technologies and take on
