@@ -8,6 +8,7 @@ import Aos from "aos";
 import { Projects } from "./Componants/Projects";
 import { Contact } from "./Componants/Contact";
 import { MobileList } from "./Componants/MobileList";
+import { Footer } from "./Componants/Footer";
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
         <Projects />
         <Contact />
         <MobileList/>
+        <Footer/>
       </main>
     </div>
   );

@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="container  items-center flex sm:justify-around my-y mt-[10rem] flex-col-reverse sm:flex-row font-mono"
+      className="container  items-center flex md:justify-around sm:justify-between my-y mt-[10rem] flex-col-reverse sm:flex-row font-mono "
     >
       <div
         className="sm:w-2/6 w-5/6 h-[70%] rounded-lg items-center mt-7 animation-border "
@@ -28,15 +28,15 @@ export const About = () => {
           </h1>
         </div>
 
-        <div className="mt-6 text-white ">
-          <p data-aos="fade-up-left" className="text-lg">
+        <div className="mt-6 text-white sm:text-[15px] text-lg md:text-lg  ">
+          <p data-aos="fade-up-left" className="">
             Hi, I&apos;m Mohamed, a passionate Front-End Developer specializing
             in React.js. With a keen eye for detail and a strong commitment to
             creating seamless user experiences, I bring innovative designs to
             life through clean, efficient code. My expertise lies in HTML, CSS,
             JavaScript, and modern frameworks like React and Redux.
           </p>
-          <p className="text-lg" data-aos="fade-up-left">
+          <p className="" data-aos="fade-up-left">
             I&apos;m always eager to learn new technologies and take on
             challenging projects that allow me to grow both personally and
             professionally.

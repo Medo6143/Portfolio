@@ -32,7 +32,7 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="sm:h-[500px] container flex sm:justify-around items-center sm:text-start flex-col sm:flex-row text-center font-mono "
+      className="sm:h-[500px] container flex sm:justify-around items-center sm:text-start my-12 flex-col sm:flex-row text-center font-mono "
     >
       <div
         className="text-white sm:w-3/6 w-5/6 mt-2 items-center  "
@@ -92,13 +92,14 @@ export const Home = () => {
       </div>
       <div
         data-aos="fade-down"
-        className="bg-black hove sm:w-2/6 w-5/6 h-[70%] rounded-lg items-center mt-7 animation-border "
+        className="bg-black hove sm:w-2/6 w-5/6 md:h-[70%] h-[70%] sm:h-[50%] rounded-lg items-center mt-7 animation-border "
       >
         <Lottie
           animationData={image}
           loop={true}
-          className="w-[300px] mx-auto mt-8 "
+          className="sm:w-[200px] w-[300px]  md:w-[300px] mx-auto mt-8 "
         />
+
       </div>
     </section>
   );
