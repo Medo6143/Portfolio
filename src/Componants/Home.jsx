@@ -83,7 +83,7 @@ export const Home = () => {
               </a>
             </li>
             <li className="cur cursor-pointer hover:text-[#32D3FF]">
-              <a target="blank" href="https://wa.me/01001324231">
+              <a target="blank" href="https://wa.me/201001324231">
                 <FaWhatsapp size={25} />
               </a>
             </li>

@@ -23,12 +23,12 @@ export const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://wa.me/01001324231" target="_blank" rel="noopener noreferrer" className="hover:text-[#32D3FF] transition-colors">
+            <a href="https://wa.me/201001324231" target="_blank" rel="noopener noreferrer" className="hover:text-[#32D3FF] transition-colors">
               <FaWhatsapp size={24} />
             </a>
           </li>
         </ul>
-        <p className="text-sm">&copy; 2023 Mohamed Wael. All rights reserved.</p>
+        <p className="text-sm">&copy; 2024 Mohamed Wael. All rights reserved.</p>
       </div>
     </footer>
   );
