@@ -7,11 +7,7 @@ export const Footer = () => {
         <h2 className="text-2xl font-bold mb-4">Mohamed Wael</h2>
         <p className="text-center mb-6">Front-End Developer | React.js Specialist</p>
         <ul className="flex gap-6 mb-6">
-          <li>
-            <a href="https://www.facebook.com/profile.php?id=100037952316588&locale=ar_AR" target="_blank" rel="noopener noreferrer" className="hover:text-[#32D3FF] transition-colors">
-              <FaFacebook size={24} />
-            </a>
-          </li>
+        
           <li>
             <a href="https://github.com/Medo6143" target="_blank" rel="noopener noreferrer" className="hover:text-[#32D3FF] transition-colors">
               <FaGithub size={24} />
