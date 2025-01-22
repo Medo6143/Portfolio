@@ -9,8 +9,11 @@ const skillsImages = [
   "https://img.icons8.com/color/48/000000/github.png", // GitHub
   "https://img.icons8.com/color/48/000000/typescript.png", // TypeScript
   "https://img.icons8.com/color/48/000000/javascript.png", // JavaScript
-  "https://img.icons8.com/color/48/000000/webpack.png", // JavaScript
-  "https://img.icons8.com/color/48/000000/firebase.png", 
+  "https://img.icons8.com/color/48/000000/webpack.png", // Webpack
+  "https://img.icons8.com/color/48/000000/firebase.png", // Firebase
+  "https://img.icons8.com/color/48/000000/mongodb.png", // MongoDB
+  "https://img.icons8.com/color/48/000000/nodejs.png", // Node.js
+  "https://img.icons8.com/color/48/000000/postgreesql.png" // PostgreSQL
 ];
 
 export default skillsImages;

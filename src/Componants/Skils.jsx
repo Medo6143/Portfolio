@@ -12,7 +12,7 @@ export const Skils = () => {
         </h1>
       </div>
 
-      <div className="bg-[#222222] w-full sm:w-[70%] mx-auto rounded-3xl mt-16 h-[500px] sm:h-[350px] p-6 grid sm:grid-cols-4 grid-cols-3  sm:grid-rows-3  ">
+      <div className="bg-[#222222] w-full sm:w-[70%] mx-auto rounded-3xl mt-16 h-[500px] sm:h-[400px] p-6 grid sm:grid-cols-4 grid-cols-3   sm:gap-1  ">
         {Urlicon.map((src, index) => (
           <Skill url={src} key={index} />
         ))}

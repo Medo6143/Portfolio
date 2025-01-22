@@ -62,6 +62,13 @@ const projects = [
     code: "https://github.com/Medo6143/Profile",
     category: "React&Tailwind",
   },
+  {
+    id: "9",
+    img: "https://mostaql.hsoubcdn.com/uploads/thumbnails/2783846/67903258c3a6d/Screenshot-2025-01-15-184827.png?s=medium",
+    demo: "https://ecommerce-store-pi-red.vercel.app/login",
+    code: "https://github.com/Medo6143/Ecommerce-Store",
+    category: "React&Tailwind",
+  },
 ];
 
 export default projects;
